@@ -15,11 +15,13 @@ The project follows a standard Spring Boot application structure with the follow
 
   # API Endpoints
 
-  # Student Management (/app)
-  
-:---| Method	:---:| Endpoint	---:| Description
-:--- GET	:---: /app/mapstudent/{id}	---: Get a student by registration number
-:--- GET	:---: /app/mapstudentAll	---: Get all students
-:--- POST	:---: /app/add	---: Add a new student
-:--- DELETE	:---: /app/delStu/{reg}	---: Delete a student by registration number
-:--- PUT	:---: /app/update/{reg}	---: Update a student by registration number
+  ### Student Management (`/app`)
+
+| Method | Endpoint                   | Description                               |
+|--------|----------------------------|-------------------------------------------|
+| GET    | `/app/mapstudent/{id}`     | Get a student by registration number      |
+| GET    | `/app/mapstudentAll`       | Get all students                          |
+| POST   | `/app/add`                 | Add a new student                         |
+| DELETE | `/app/delStu/{reg}`        | Delete a student by registration number   |
+| PUT    | `/app/update/{reg}`        | Update a student by registration number   |
+
